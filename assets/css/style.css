@@ -28,11 +28,36 @@ header {
 body {
     background-color: rgb(255, 249, 249);
 }
-
-.menu-color-preventive awareness programme {
-    background-color: #26722f;
+.container {
+    display:flex;
+    flex-wrap: wrap;
 }
-
+.container div {
+    box-sizing: border-box;
+}
+div {
+   padding: 10px;
+}
+h1,h2,h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.box {
+    width: 260px;
+    height: 152px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
 /* footer styles */
 footer {
     background-color: rgb(168, 149, 255);
