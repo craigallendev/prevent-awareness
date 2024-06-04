@@ -38,3 +38,7 @@ footer {
 
 
 /* Stories Page Style */
+.story1 {
+    border: solid 2px black;
+    border-radius: 20px;
+}
