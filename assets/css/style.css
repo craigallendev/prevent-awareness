@@ -11,7 +11,7 @@
 
 
 /* header styles */
-header {  
+header {
     background-color: rgb(168, 149, 255);
     margin-top: 75px;
 }
@@ -38,7 +38,50 @@ footer {
 
 
 /* Stories Page Style */
-.story1 {
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+#stories {
+    margin: 0 10%;
+}
+
+.story-container {
     border: solid 2px black;
     border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    aspect-ratio: calc(16/9);
+}
+
+.video-border {
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.collapsible summary {
+    background-color: grey;
+    border: solid 0px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.collapsible summary::-webkit-details-marker {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .visible-for-bigger-screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .collapsible {
+        display: none;
+    }
 }
