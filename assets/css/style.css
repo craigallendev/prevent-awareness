@@ -12,8 +12,33 @@
 
 /* header styles */
 header {  
+    padding-top: 20px;
     background-color: rgb(168, 149, 255);
-    margin-top: 75px;
+    /* margin-top: 75px; */
+}
+
+header h1, h2, h3{
+    
+    justify-content: center;
+    text-align: center;
+    font-family: "roboto+slab", sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: blue;
+}
+
+header h1 {
+   font-size: 300% ;
+   
+}
+
+header h2 {
+    font-size: 200%;
+}
+
+header h3 {
+    font-size: 75%;
 }
 
 .nav-list {
