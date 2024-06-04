@@ -1,0 +1,37 @@
+/* google fonts  */
+/* roboto slab font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* wildcard setting to override default browser styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header styles */
+header {  
+    background-color: rgb(168, 149, 255);
+    margin-top: 75px;
+}
+
+.nav-list {
+    display: flex;
+    padding: 15pxs;
+    color: white;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+/* main body styles */
+body {
+    background-color: rgb(255, 249, 249);
+}
+
+
+
+/* footer styles */
+footer {
+    background-color: rgb(168, 149, 255);
+}
