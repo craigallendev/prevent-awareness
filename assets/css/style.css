@@ -1,6 +1,10 @@
 /* google fonts  */
-/* roboto slab font */
+/* roboto slab font for brand heading */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* quattrocento and quattrocento sans for the main fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap');
 
 /* wildcard setting to override default browser styles */
 * {
@@ -13,13 +17,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
+    background-color: #2b5382;
+    color: #fafafa
 }
 
 /* header styles */
 header {
     padding-top: 20px;
-    background-color: rgb(205, 199, 231);
+    background-color: #26722f;
     /* margin-top: 75px; */
 }
 
@@ -29,10 +34,10 @@ h3 {
     justify-content: center;
     text-align: center;
     font-family: "roboto+slab", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 0;
     margin-top: 0;
-    color: blue;
+    color: #fafafa;
 }
 
 header h1 {
@@ -55,13 +60,19 @@ header h3 {
     margin: 5px;
 }
 
+.navbar {
+    min-width: 200px;
+    min-height: 100px;
+}
+
 /* main body styles */
 
 main {
-    background-color: rgb(255, 249, 249);
+    background-color: #2b5382;
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
     margin-top: 47px;
+
 }
 
 .container {
@@ -146,7 +157,7 @@ li {
 /* footer styles */
 
 footer {
-    background-color: rgb(205, 199, 231);
+    background-color: #26722f;
     display: flex;
     justify-content: flex-end;
     position: sticky;
