@@ -72,20 +72,11 @@ main {
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
     margin-top: 47px;
-
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container div {
-    box-sizing: border-box;
-}
 
 div {
-    padding: 10px;
+  padding: 10px;
 }
 
 h1,h2,h3 {
@@ -106,25 +97,11 @@ li {
 .box {
     width: 100%;
     height: 153px;
-    border: 1px solid black;
+    border: 2px solid lightgoldenrodyellow;
     padding: 10px;
     margin: 10px;
   }
   
-.col-sm-4 box {
-    width: 100%;
-    height: 40px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
-  .col-sm box {
-    width: 100%;
-    height: 100px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
   .preventive-awareness-programme {
     height: 158px;
   }
@@ -145,10 +122,10 @@ li {
 /* hero image */
 
 #hero {
+  position: relative;
+  bottom: 47px;
   height: 350px;
   width: 100%;
-  position: relative;
-  top: 0px;
   background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
 }
 
@@ -287,34 +264,34 @@ footer i {
 @media (max-width: 1440px) {
   .box {
       width: 65%;
+      border-radius: 20px;
   }
   .preventive-awareness-programme {
       height: 145px;
       position: relative;
-      left: 195px;
+      left: 5px;
+      top: 90px;
     }
   
     .psychological-impact {
-      width: 25%;
-      height: 150px;
+      height: 200px;
       position: relative;
-      bottom: 270px;
+      top: 130px;
     }
     .safeguarding {
-      height: 250px;
+      height: 135px;
       position: relative;
-      top: 180px;
+      top: 120px;
     }
     .radicalisation {
-      height: 240px;
+      height: 135px;
       position: relative;
-      top: 180px;
+      top: 110px;
     }
   .Objectives {
       height: 173px;
-      width: 40%;
       position: relative;
-      top: 180px;
+      top: 100px;
   }
   h1,h2,h3 {
     font-family: 'Quatrocentro' Quatrocentro Sans;
@@ -329,32 +306,44 @@ li {
     font-family: 'Quatrocentro' Quatrocentro Sans;
     font-size: larger;
 }
+.row {
+  position: relative;
+  left: 90px;
+  bottom: 150px;
+}
 }
 
 @media (max-width: 768px) {
   .box {
       width: 60%;
+      border-radius: 20px;
   }
   
   .preventive-awareness-programme {
-    position: static;
-      height: 138px;
+    position: relative;
+    left: 0px;
+    bottom: 37px;
+      height: 115px;
     }
   
     .psychological-impact {
-      position: static;
-      height: 210px;
+      position: relative;
+      top: 140px;
+      height: 125px;
     }
     .safeguarding {
-      position: static;
-      height: 118px;
+      position: relative;
+      top: 125px;
+      height: 100px;
     }
     .radicalisation {
-      position: static;
-      height: 142px;
+      position: relative;
+      top: 110px;
+      height: 100px;
     }
   .Objectives {
-    position: static;
+    position: relative;
+    top: 100px;
       height: 140px;
   }
   h1,h2,h3 {
@@ -370,24 +359,39 @@ li {
     font-family: 'Quatrocentro' Quatrocentro Sans;
     font-size: medium;
 }
+.row {
+  position: relative;
+  left: 0px;
+  width: 1200px;
+}
+
+#hero {
+  position: relative;
+  bottom: 47px;
+  height: 355px;
+  width: 110%;
+  background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
+}
 }
 
 
 @media (max-width: 576px) {
     .box {
         width: 100%;
+        padding-left: 15px;
+        border-radius: 20px;
     }
     .col-sm box {
         width: 100%;
     } 
     .preventive-awareness-programme {
       position: static;
-        height: 142px;
+        height: 155px;
       }
     
       .psychological-impact {
         position: static;
-        height: 165px;
+        height: 190px;
       }
       .safeguarding {
         position: static;
@@ -413,5 +417,9 @@ li {
   li {
       font-family: 'Quatrocentro' Quatrocentro Sans;
       font-size: small;
+  }
+  .row {
+    margin-right: 10px;
+    position: static;
   }
 }
