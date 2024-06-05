@@ -295,18 +295,15 @@ footer {
 
 #support-heading {
     font-size: 60px;
-    margin-top: 0;
-    padding: 0 20px;
+    margin-top: 50px;
 }
-.header-text {
-    font-size: 20px;
-}
+
 #support-heading-small {
     font-size: 40px;
     margin-top: 20px;
 }
 .support-container {
-    border: 5px solid #fafafa;
+    border: 5px solid #2D2D2A;
     border-radius: 10px;
     padding: 15px;
     background-color: #9CC6A1;
