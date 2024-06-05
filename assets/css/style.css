@@ -158,11 +158,14 @@ li {
 footer {
     background-color: #26722f;
     display: flex;
-    justify-content: flex-end;
-    position: sticky;
+    justify-content: center;
     height: 50px;
     width: 100%;
     align-items: center;
+    margin-top: auto;
+    width: calc(100% - 40px);
+    border-radius: 25px;
+    margin: 0px 10px;
 }
 
 footer a {
