@@ -17,6 +17,11 @@ body {
 }
 
 /* header styles */
+<<<<<<< HEAD
+header {
+    background-color: rgb(168, 149, 255);
+    margin-top: 75px;
+=======
 header {  
     padding-top: 20px;
     background-color: rgb(205, 199, 231);
@@ -45,6 +50,7 @@ header h2 {
 
 header h3 {
     font-size: 75%;
+>>>>>>> main
 }
 
 .nav-list {
@@ -90,3 +96,54 @@ footer {
 }
 
 
+<<<<<<< HEAD
+/* Stories Page Style */
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+#stories {
+    margin: 0 10%;
+}
+
+.story-container {
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    aspect-ratio: calc(16/9);
+}
+
+.video-border {
+    border: solid 0px;
+    border-radius: 10px;
+}
+
+.collapsible summary {
+    background-color: grey;
+    border: solid 0px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px 0px 20px;
+}
+
+.collapsible summary::-webkit-details-marker {
+    display: none;
+}
+
+@media screen and (max-width: 499px) {
+    .visible-for-bigger-screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .collapsible {
+        display: none;
+    }
+}
+=======
+>>>>>>> main
