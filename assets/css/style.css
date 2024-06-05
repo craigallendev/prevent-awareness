@@ -59,6 +59,11 @@ header h3 {
     margin: 5px;
 }
 
+.navbar {
+    min-width: 200px;
+    min-height: 100px;
+}
+
 /* main body styles */
 main {
     background-color: rgb(255, 249, 249);
