@@ -95,32 +95,33 @@ li {
 >>>>>>> origin/main
 }
 
-.box {
-    width: 100%;
-    height: 153px;
+.row-cols-2 .box {
+    width: 48%;
+    height: unset;
     border: 2px solid lightgoldenrodyellow;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 0px;
   }
   
   .preventive-awareness-programme {
-    height: 158px;
+    height: unset;
 }
 
 .psychological-impact {
-    height: 168px;
+    height: unset;
 }
 
 .safeguarding {
-    height: 105px;
+    height: unset;
 }
 
 .radicalisation {
-    height: 105px;
+    height: unset;
 }
 
 .Objectives {
-    height: 125px;
+    height: unset;
 }
 
 /* hero image */
@@ -128,8 +129,8 @@ li {
 #hero {
   position: relative;
   bottom: 47px;
-  height: 350px;
-  width: 100%;
+  height: unset;
+  width: unset;
   background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
 }
 
@@ -316,172 +317,117 @@ footer i {
 /* media queries */
 
 @media (max-width: 1440px) {
-  .box {
-      width: 65%;
-      border-radius: 20px;
+    .row-cols-2 .box {
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .preventive-awareness-programme,
+    .psychological-impact,
+    .safeguarding,
+    .radicalisation,
+    .Objectives {
+      height: unset;
+    }
+
+    h1,h2,h3 {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: xx-large;
+      font-weight: 600;
   }
-  .preventive-awareness-programme {
-      height: 145px;
-      position: relative;
-      left: 5px;
-      top: 90px;
-    }
+  p {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: larger;
+  }
+  li {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: larger;
+  }
+  }
 
-    .psychological-impact {
-      height: 200px;
-      position: relative;
-      top: 130px;
+  @media (max-width: 768px) {
+    ..row-cols-2 .box {
+        width: 0%;
+        border-radius: 20px;
     }
-
-    .safeguarding {
-      height: 135px;
+    
+    .preventive-awareness-programme {
       position: relative;
-      top: 120px;
-    }
-
-    .radicalisation {
-      height: 135px;
-      position: relative;
-      top: 110px;
-    }
-  .Objectives {
-      height: 173px;
+      left: 0px;
+      bottom: 37px;
+        height: 115px;
+      }
+  
+      .psychological-impact {
+        position: relative;
+        top: 140px;
+        height: 125px;
+      }
+  
+      .safeguarding {
+        position: relative;
+        top: 125px;
+        height: 100px;
+      }
+  
+      .radicalisation {
+        position: relative;
+        top: 110px;
+        height: 100px;
+      }
+    .Objectives {
       position: relative;
       top: 100px;
+        height: 140px;
+    }
+    h1,h2,h3 {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: larger;
+      font-weight: 600;
   }
-  h1,h2,h3 {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: xx-large;
-    font-weight: 600;
-}
-p {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: larger;
-}
-li {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: larger;
-}
-.row {
-  position: relative;
-  left: 90px;
-  bottom: 150px;
-}
-}
-
-@media (max-width: 768px) {
-  .box {
-      width: 60%;
-      border-radius: 20px;
+  p {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: larger;
   }
-  
-  .preventive-awareness-programme {
+  li {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: larger;
+  }
+  .row-cols-2 {
     position: relative;
     left: 0px;
-    bottom: 37px;
-      height: 115px;
-    }
-
-    .psychological-impact {
-      position: relative;
-      top: 140px;
-      height: 125px;
-    }
-
-    .safeguarding {
-      position: relative;
-      top: 125px;
-      height: 100px;
-    }
-
-    .radicalisation {
-      position: relative;
-      top: 110px;
-      height: 100px;
-    }
-  .Objectives {
-    position: relative;
-    top: 100px;
-      height: 140px;
+    width: 1200px;
   }
-  h1,h2,h3 {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: large;
-    font-weight: 600;
-}
-p {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: medium;
-}
-li {
-    font-family: 'Quatrocentro' Quatrocentro Sans;
-    font-size: medium;
-}
-.row {
-  position: relative;
-  left: 0px;
-  width: 1200px;
-}
-
-#hero {
-  position: relative;
-  bottom: 47px;
-  height: 355px;
-  width: 110%;
-  background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
-}
-}
-
+  }
 
 @media (max-width: 576px) {
-    .box {
+    .row-cols-2 .box {
         width: 100%;
         padding-left: 15px;
         border-radius: 20px;
     }
 
-    .col-sm box {
-        width: 100%;
-    }
-
-    .preventive-awareness-programme {
-      position: static;
-        height: 155px;
-      }
-    
-      .psychological-impact {
-        position: static;
-        height: 190px;
-      }
-      .safeguarding {
-        position: static;
-        height: 103px;
-    }
-
-    .radicalisation {
-        position: static;
-        height: 100px;
-    }
-
+    .preventive-awareness-programme,
+    .psychological-impact,
+    .safeguarding,
+    .radicalisation,
     .Objectives {
-        position: static;
-        height: 125px;
+      height: unset;
     }
+
     h1,h2,h3 {
       font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: medium;
+      font-size: large;
       font-weight: 600;
   }
   p {
       font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: small;
+      font-size: medium;
   }
   li {
       font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: small;
-  }
-  .row {
-    margin-right: 10px;
-    position: static;
+      font-size: medium;
   }
 }
+
