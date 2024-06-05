@@ -207,28 +207,49 @@ footer {
 }
 
 .collapsible summary {
-    background-color: grey;
-    border: solid 0px;
+    background-color: #26722f;
+    color: #fafafa;
+    border: 0px;
+    padding: 3px 0px;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     display: block;
     text-align: center;
-    margin: 10px 0px 20px;
+    margin: 10px 50px 5px;
+}
+
+.collapsible summary:hover {
+    background-color: #9CC6A1;
 }
 
 .collapsible summary::-webkit-details-marker {
     display: none;
 }
 
-@media screen and (max-width: 499px) {
+/* Media rules for Stories page */
+
+@media screen and (max-width: 575px) {
     .visible-for-bigger-screen {
         display: none;
     }
+
     .story-container {
         margin-bottom: 60px;
         border-radius: 10px;
+    }
+
+    #stories .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    .video-border {
+        border-radius: 5px;
+    }
 }
 
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 576px) {
     .collapsible {
         display: none;
     }
