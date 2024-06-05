@@ -71,7 +71,7 @@ main {
     background-color: #2b5382;
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
-    margin: 47px;
+    margin-top: 47px;
 }
 
 .container {
@@ -258,6 +258,7 @@ footer {
 @media (max-width: 1440px) {
   .box {
       width: 65%;
+      border-radius: 20px;
   }
   .preventive-awareness-programme {
       height: 145px;
@@ -305,11 +306,13 @@ li {
 @media (max-width: 768px) {
   .box {
       width: 60%;
+      border-radius: 20px;
   }
   
   .preventive-awareness-programme {
     position: relative;
     left: 155px;
+    bottom: 37px;
       height: 138px;
     }
   
@@ -349,13 +352,14 @@ li {
     .box {
         width: 100%;
         padding-left: 15px;
+        border-radius: 20px;
     }
     .col-sm box {
         width: 100%;
     } 
     .preventive-awareness-programme {
       position: static;
-        height: 142px;
+        height: 155px;
       }
     
       .psychological-impact {
@@ -386,5 +390,8 @@ li {
   li {
       font-family: 'Quatrocentro' Quatrocentro Sans;
       font-size: small;
+  }
+  .row {
+    margin-right: 10px;
   }
 }
