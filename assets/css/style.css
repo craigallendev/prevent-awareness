@@ -162,6 +162,16 @@ footer {
     position: sticky;
     height: 50px;
     width: 100%;
+    align-items: center;
+}
+
+footer a {
+    margin: 0 15px;
+}
+
+footer i {
+    font-size: 24px;
+    color: #fafafa;
 }
 
 /* Stories Page Style */
