@@ -105,7 +105,7 @@
         </div>
     </div>
     <h2 class="d-flex justify-content-center" class="support-heading">Share A Concern</h2>
-    <div class="container text-center">
+    <div class="container text-center d-flex justify-content-center">
         <div class="row">
             <div class="d-flex justify-content-center col-lg-12 col-sm-12">
                 <p class="d-flex justify-content-center col-lg-12 col-sm-12">If you are worried about someone, there are
@@ -113,10 +113,10 @@
             </div>
         </div>
     </div>
-    <div class="container text-center">
+    <div class="container text-center d-flex justify-content-around">
         <div class="row align-items-start">
             <div class="col">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                <button type="button" class="btn btn-outline-primary text-nowrap support-button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     data-whatever="@prevent">Message Us</button>
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -146,11 +146,28 @@
                 </div>
             </div>
             <div class="col">
-                <a href="https://www.x.com" class="btn btn-outline-primary">Support on <i
+                <a href="https://www.x.com" class="btn btn-outline-primary text-nowrap support-button">Support on <i
                         class="fa-brands fa-x-twitter"></i></a>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-outline-primary">Give Us A Call</button>
+                <button type="button" class="btn btn-outline-primary text-nowrap support-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Give Us A Call</button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Give us a call we are here to help</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Call us on 01987127563
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  </div>
             </div>
         </div>
     </div>
