@@ -91,18 +91,19 @@ div {
 h1,
 h2,
 h3 {
-    font-family: 'Quatrocentro'Quatrocentro Sans;
+    font-family: 'Quatrocentro', Quatrocentro Sans;
     font-size: medium;
     font-weight: 600;
 }
 
 p {
-    font-family: 'Quatrocentro'Quatrocentro Sans;
-    font-size: small;
+    font-family: 'Quatrocentro', Quatrocentro Sans;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 li {
-    font-family: 'Quatrocentro'Quatrocentro Sans;
+    font-family: 'Quatrocentro', Quatrocentro Sans;
     font-size: small;
 }
 
@@ -173,6 +174,10 @@ footer {
 }
 
 /* Stories Page Style */
+
+#stories h1 {
+    font-size: 260%;
+}
 
 .container-fluid {
     --bs-gutter-x: 0rem;
