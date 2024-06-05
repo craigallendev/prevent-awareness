@@ -74,17 +74,9 @@ main {
     margin-top: 47px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container div {
-    box-sizing: border-box;
-}
 
 div {
-    padding: 10px;
+  padding: 10px;
 }
 
 h1,h2,h3 {
@@ -111,20 +103,6 @@ li {
     margin: 10px;
   }
   
-.col-sm-4 box {
-    width: 100%;
-    height: 40px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
-  .col-sm box {
-    width: 100%;
-    height: 100px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-  }
   .preventive-awareness-programme {
     height: 158px;
   }
@@ -267,7 +245,6 @@ footer {
     }
   
     .psychological-impact {
-      width: 25%;
       height: 150px;
       position: relative;
       bottom: 270px;
@@ -284,7 +261,6 @@ footer {
     }
   .Objectives {
       height: 173px;
-      width: 40%;
       position: relative;
       top: 180px;
   }
@@ -364,7 +340,7 @@ li {
     
       .psychological-impact {
         position: static;
-        height: 165px;
+        height: 190px;
       }
       .safeguarding {
         position: static;
