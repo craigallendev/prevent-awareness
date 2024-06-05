@@ -17,13 +17,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #97c5d3;
+    background-color: #2b5382;
+    color: #fafafa
 }
 
 /* header styles */
 header {
     padding-top: 20px;
-    background-color: #2b5382;
+    background-color: #26722f;
     /* margin-top: 75px; */
 }
 
@@ -33,10 +34,10 @@ h3 {
     justify-content: center;
     text-align: center;
     font-family: "roboto+slab", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 0;
     margin-top: 0;
-    color: blue;
+    color: #fafafa;
 }
 
 header h1 {
@@ -67,7 +68,7 @@ header h3 {
 /* main body styles */
 
 main {
-    background-color: #97c5d3;
+    background-color: #2b5382;
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -156,7 +157,7 @@ li {
 /* footer styles */
 
 footer {
-    background-color: #2b5382;
+    background-color: #26722f;
     display: flex;
     justify-content: flex-end;
     position: sticky;
