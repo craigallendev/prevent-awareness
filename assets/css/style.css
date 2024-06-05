@@ -171,3 +171,19 @@ footer {
     height: 120px;
     padding: 25px;
 }
+
+.support-button {
+    background-color: #26722f;
+    color: #fafafa; 
+    border: 2px solid #9CC6A1;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.support-button:hover {
+    background-color: #9CC6A1; 
+    color: #fafafa; 
+    border: 2px solid #26722f; 
+}
