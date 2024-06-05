@@ -9,11 +9,42 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 
 /* header styles */
 header {  
-    background-color: rgb(168, 149, 255);
-    margin-top: 75px;
+    padding-top: 20px;
+    background-color: rgb(205, 199, 231);
+    /* margin-top: 75px; */
+}
+
+header h1, h2, h3{
+    
+    justify-content: center;
+    text-align: center;
+    font-family: "roboto+slab", sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: blue;
+}
+
+header h1 {
+   font-size: 300% ;
+   
+}
+
+header h2 {
+    font-size: 200%;
+}
+
+header h3 {
+    font-size: 75%;
 }
 
 .nav-list {
@@ -25,15 +56,23 @@ header {
 }
 
 /* main body styles */
-body {
+main {
     background-color: rgb(255, 249, 249);
+    /* enable main element to take up entire white-space */
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 
 
 /* footer styles */
 footer {
-    background-color: rgb(168, 149, 255);
+    background-color: rgb(205, 199, 231);
+    display:flex;
+    justify-content: flex-end;
+    position:sticky;
+    height: 50px;
+    width: 100%;
 }
 
 
