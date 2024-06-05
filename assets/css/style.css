@@ -65,6 +65,7 @@ main {
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
     margin-top: 47px;
+
 }
 
 
