@@ -102,29 +102,94 @@ footer {
 
 /* media queries */
 
+@media (max-width: 1440px) {
+  .box {
+      width: 65%;
+  }
+  .preventive-awareness-programme {
+      height: 145px;
+      position: relative;
+      left: 195px;
+    }
+  
+    .psychological-impact {
+      width: 25%;
+      height: 150px;
+      position: relative;
+      bottom: 270px;
+    }
+    .safeguarding {
+      height: 250px;
+      position: relative;
+      top: 180px;
+    }
+    .radicalisation {
+      height: 240px;
+      position: relative;
+      top: 180px;
+    }
+  .Objectives {
+      height: 173px;
+      width: 40%;
+      position: relative;
+      top: 180px;
+  }
+  h1,h2,h3 {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: xx-large;
+    font-weight: 600;
+}
+p {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: larger;
+}
+li {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: larger;
+}
+}
 
 @media (max-width: 768px) {
-    .box {
-        width: 100%;
+  .box {
+      width: 60%;
+  }
+  
+  .preventive-awareness-programme {
+    position: static;
+      height: 138px;
     }
-    
-    .preventive-awareness-programme {
-        height: 92px;
-      }
-
-      .psychological-impact {
-        height: 253px;
-      }
-      .safeguarding {
-        height: 120px;
-      }
-      .radicalisation {
-        height: 120px;
-      }
-    .Objectives {
-        height: 125px;
+  
+    .psychological-impact {
+      position: static;
+      height: 210px;
     }
+    .safeguarding {
+      position: static;
+      height: 118px;
+    }
+    .radicalisation {
+      position: static;
+      height: 142px;
+    }
+  .Objectives {
+    position: static;
+      height: 140px;
+  }
+  h1,h2,h3 {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: large;
+    font-weight: 600;
 }
+p {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: medium;
+}
+li {
+    font-family: 'Quatrocentro' Quatrocentro Sans;
+    font-size: medium;
+}
+}
+
 
 @media (max-width: 576px) {
     .box {
@@ -134,19 +199,37 @@ footer {
         width: 100%;
     } 
     .preventive-awareness-programme {
+      position: static;
         height: 142px;
       }
     
       .psychological-impact {
+        position: static;
         height: 165px;
       }
       .safeguarding {
+        position: static;
         height: 103px;
       }
       .radicalisation {
+        position: static;
         height: 100px;
       }
     .Objectives {
+      position: static;
         height: 125px;
     }
+    h1,h2,h3 {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: medium;
+      font-weight: 600;
+  }
+  p {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: small;
+  }
+  li {
+      font-family: 'Quatrocentro' Quatrocentro Sans;
+      font-size: small;
+  }
 }
