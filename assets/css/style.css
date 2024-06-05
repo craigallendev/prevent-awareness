@@ -89,18 +89,17 @@ div {
 }
 
 h1,h2,h3 {
-  font-family: 'Quatrocentro' Quatrocentro Sans;
-  font-size: medium;
+  font-family: 'Quatrocentro', Quatrocentro Sans;
   font-weight: 600;
 }
 
 p {
-  font-family: 'Quatrocentro' Quatrocentro Sans;
-  font-size: small;
+  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-size: 16px;
 }
 
 li {
-  font-family: 'Quatrocentro' Quatrocentro Sans;
+  font-family: 'Quatrocentro', Quatrocentro Sans;
   font-size: small;
 }
 
@@ -159,10 +158,23 @@ li {
 footer {
     background-color: #26722f;
     display: flex;
-    justify-content: flex-end;
-    position: sticky;
+    justify-content: center;
     height: 50px;
     width: 100%;
+    align-items: center;
+    margin-top: auto;
+    width: calc(100% - 40px);
+    border-radius: 25px;
+    margin: 0px 10px;
+}
+
+footer a {
+    margin: 0 15px;
+}
+
+footer i {
+    font-size: 24px;
+    color: #fafafa;
 }
 
 /* Stories Page Style */
@@ -219,11 +231,20 @@ footer {
 
 /*Support Page Styles */
 
+#support-heading {
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+#support-heading-small {
+    font-size: 40px;
+    margin-top: 20px;
+}
 .support-container {
-    border: 5px solid #26722f;
+    border: 5px solid #2D2D2A;
     border-radius: 10px;
     padding: 15px;
-    background-color: #9CC6A1;
+    background-color: #fafafa;
 }
 
 .support-image {
@@ -233,8 +254,13 @@ footer {
 }
 
 .support-link {
-    color: #fafafa;
+    color: #2D2D2A;
     }
+
+.section-text{
+    color: #2D2D2A;
+}
+
 
 .support-button {
     background-color: #26722f;
@@ -253,7 +279,9 @@ footer {
     border: 2px solid #26722f; 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4)
 }
-
+.modal-text {
+    color: #2D2D2A;
+}
 /* media queries */
 
 @media (max-width: 1440px) {
