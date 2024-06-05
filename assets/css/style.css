@@ -91,6 +91,16 @@ li {
     height: 125px;
 }
 
+/* hero image */
+
+#hero {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
+}
+
 
 /* footer styles */
 footer {
