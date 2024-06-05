@@ -254,6 +254,8 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 50px;
 }
 
 .more-stories-btn .btn-primary:hover {
@@ -282,209 +284,218 @@ footer {
     .video-border {
         border-radius: 5px;
     }
-}
 
-
-@media screen and (min-width: 576px) {
-    .collapsible {
-        display: none;
-    }
-}
-
-/*Support Page Styles */
-
-.support-container {
-    border: 5px solid #26722f;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #9CC6A1;
-}
-
-.support-image {
-    width: 100%;
-    height: 120px;
-    padding: 25px;
-}
-
-.support-link {
-    color: #fafafa;
-}
-
-.support-button {
-    background-color: #26722f;
-    color: #fafafa;
-    border: 2px solid #9CC6A1;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.support-button:hover {
-    background-color: #9CC6A1;
-    color: #fafafa;
-    border: 2px solid #26722f;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4)
-}
-
-/* media queries */
-
-@media (max-width: 1440px) {
-    .box {
-        width: 65%;
+    #stories .col-6 {
+        width: auto;
     }
 
-    .preventive-awareness-programme {
-        height: 145px;
+    .more-stories-btn .btn-primary {
+        padding: 0px;
         position: relative;
-        left: 195px;
+        bottom: 25px;
     }
 
-    .psychological-impact {
-        width: 25%;
-        height: 150px;
-        position: relative;
-        bottom: 270px;
+
+    @media screen and (min-width: 576px) {
+        .collapsible {
+            display: none;
+        }
     }
 
-    .safeguarding {
-        height: 250px;
-        position: relative;
-        top: 180px;
+    /*Support Page Styles */
+
+    .support-container {
+        border: 5px solid #26722f;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #9CC6A1;
     }
 
-    .radicalisation {
-        height: 240px;
-        position: relative;
-        top: 180px;
-    }
-
-    .Objectives {
-        height: 173px;
-        width: 40%;
-        position: relative;
-        top: 180px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: xx-large;
-        font-weight: 600;
-    }
-
-    p {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: larger;
-    }
-
-    li {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: larger;
-    }
-}
-
-@media (max-width: 768px) {
-    .box {
-        width: 60%;
-    }
-
-    .preventive-awareness-programme {
-        position: static;
-        height: 138px;
-    }
-
-    .psychological-impact {
-        position: static;
-        height: 210px;
-    }
-
-    .safeguarding {
-        position: static;
-        height: 118px;
-    }
-
-    .radicalisation {
-        position: static;
-        height: 142px;
-    }
-
-    .Objectives {
-        position: static;
-        height: 140px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: large;
-        font-weight: 600;
-    }
-
-    p {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: medium;
-    }
-
-    li {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: medium;
-    }
-}
-
-
-@media (max-width: 576px) {
-    .box {
+    .support-image {
         width: 100%;
+        height: 120px;
+        padding: 25px;
     }
 
-    .col-sm box {
-        width: 100%;
+    .support-link {
+        color: #fafafa;
     }
 
-    .preventive-awareness-programme {
-        position: static;
-        height: 142px;
+    .support-button {
+        background-color: #26722f;
+        color: #fafafa;
+        border: 2px solid #9CC6A1;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     }
 
-    .psychological-impact {
-        position: static;
-        height: 165px;
+    .support-button:hover {
+        background-color: #9CC6A1;
+        color: #fafafa;
+        border: 2px solid #26722f;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4)
     }
 
-    .safeguarding {
-        position: static;
-        height: 103px;
+    /* media queries */
+
+    @media (max-width: 1440px) {
+        .box {
+            width: 65%;
+        }
+
+        .preventive-awareness-programme {
+            height: 145px;
+            position: relative;
+            left: 195px;
+        }
+
+        .psychological-impact {
+            width: 25%;
+            height: 150px;
+            position: relative;
+            bottom: 270px;
+        }
+
+        .safeguarding {
+            height: 250px;
+            position: relative;
+            top: 180px;
+        }
+
+        .radicalisation {
+            height: 240px;
+            position: relative;
+            top: 180px;
+        }
+
+        .Objectives {
+            height: 173px;
+            width: 40%;
+            position: relative;
+            top: 180px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: xx-large;
+            font-weight: 600;
+        }
+
+        p {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: larger;
+        }
+
+        li {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: larger;
+        }
     }
 
-    .radicalisation {
-        position: static;
-        height: 100px;
+    @media (max-width: 768px) {
+        .box {
+            width: 60%;
+        }
+
+        .preventive-awareness-programme {
+            position: static;
+            height: 138px;
+        }
+
+        .psychological-impact {
+            position: static;
+            height: 210px;
+        }
+
+        .safeguarding {
+            position: static;
+            height: 118px;
+        }
+
+        .radicalisation {
+            position: static;
+            height: 142px;
+        }
+
+        .Objectives {
+            position: static;
+            height: 140px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: large;
+            font-weight: 600;
+        }
+
+        p {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: medium;
+        }
+
+        li {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: medium;
+        }
     }
 
-    .Objectives {
-        position: static;
-        height: 125px;
-    }
 
-    h1,
-    h2,
-    h3 {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: medium;
-        font-weight: 600;
-    }
+    @media (max-width: 576px) {
+        .box {
+            width: 100%;
+        }
 
-    p {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: small;
-    }
+        .col-sm box {
+            width: 100%;
+        }
 
-    li {
-        font-family: 'Quatrocentro'Quatrocentro Sans;
-        font-size: small;
+        .preventive-awareness-programme {
+            position: static;
+            height: 142px;
+        }
+
+        .psychological-impact {
+            position: static;
+            height: 165px;
+        }
+
+        .safeguarding {
+            position: static;
+            height: 103px;
+        }
+
+        .radicalisation {
+            position: static;
+            height: 100px;
+        }
+
+        .Objectives {
+            position: static;
+            height: 125px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: medium;
+            font-weight: 600;
+        }
+
+        p {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: small;
+        }
+
+        li {
+            font-family: 'Quatrocentro'Quatrocentro Sans;
+            font-size: small;
+        }
     }
-}
