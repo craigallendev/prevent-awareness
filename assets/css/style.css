@@ -71,8 +71,7 @@ main {
     background-color: #2b5382;
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
-    margin-top: 47px;
-
+    margin: 47px;
 }
 
 .container {
@@ -107,7 +106,7 @@ li {
 .box {
     width: 100%;
     height: 153px;
-    border: 1px solid black;
+    border: 2px solid lightgoldenrodyellow;
     padding: 10px;
     margin: 10px;
   }
@@ -146,10 +145,10 @@ li {
 /* hero image */
 
 #hero {
+  position: relative;
+  bottom: 47px;
   height: 350px;
   width: 100%;
-  position: relative;
-  top: 0px;
   background: url("../images/Hackathon\ hero\ image.jpeg") no-repeat center center/cover
 }
 
@@ -309,7 +308,8 @@ li {
   }
   
   .preventive-awareness-programme {
-    position: static;
+    position: relative;
+    left: 155px;
       height: 138px;
     }
   
@@ -348,6 +348,7 @@ li {
 @media (max-width: 576px) {
     .box {
         width: 100%;
+        padding-left: 15px;
     }
     .col-sm box {
         width: 100%;
