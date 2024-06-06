@@ -92,7 +92,6 @@ p {
 li {
   font-family: 'Quatrocentro', Quatrocentro Sans;
   font-size: small;
->>>>>>> origin/main
 }
 
 .row-cols-2 .box {
@@ -131,7 +130,7 @@ li {
   bottom: 47px;
   height: unset;
   width: unset;
-  background: url("../images/hero-image.jpeg") no-repeat center center/cover
+  background: url("assets/images/hero-image.jpg") no-repeat center center/cover
 }
 
 
