@@ -167,7 +167,7 @@ footer i {
     margin-bottom: 10px;
 }
 
-.container-fluid {
+#stories .container-fluid {
     --bs-gutter-x: 0rem;
 }
 
@@ -235,6 +235,10 @@ footer i {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+#stories .col-6 {
+    width: 230px;
+}
+
 .more-stories-btn .btn-primary:hover {
     background-color: #9CC6A1;
     color: #fafafa;
@@ -262,6 +266,12 @@ footer i {
     .video-border {
         border-radius: 5px;
     }
+
+    .more-stories-btn .btn-primary {
+        padding: 0px;
+        position: relative;
+        bottom: 25px;
+    }
 }
 
 
@@ -269,6 +279,11 @@ footer i {
     .collapsible {
         display: none;
     }
+
+    .more-stories-btn .btn-primary {
+        position: relative;
+        bottom: 50px;
+
 }
 
 /*Support Page Styles */
