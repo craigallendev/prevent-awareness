@@ -141,12 +141,14 @@ footer {
     display: flex;
     justify-content: center;
     height: 50px;
+    padding: 0 10px;
     width: 100%;
     align-items: center;
     margin-top: auto;
     width: calc(100% - 40px);
     border-radius: 25px;
-    margin: 0px 10px;
+    margin: 0px auto;
+    box-sizing: border-box;
 }
 
 footer a {
@@ -266,7 +268,9 @@ footer i {
     font-size: 60px;
     margin-top: 0;
     padding: 0 20px;
+    flex-wrap: nowrap;
 }
+
 .header-text {
     font-size: 20px;
 }
