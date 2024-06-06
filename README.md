@@ -20,24 +20,25 @@ By providing these resources, the website aims to provide protection, early inte
 FEATURES
 
 Existing Features
-
+----
 Navigation Bar
+---
 
 We have a fully functional nav bar that includes the logo, Home page, Support page, and Stories page. This section will allow the users to experience the website with fully functional nav bars that allows easy access to the information. 
 
 
 The Landing Page Image
-
+---
 A photo that introduces the Prevent Awareness Programme to the users to catch their attention.
 
-
 The Main Section
+---
+The main section will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are.
 
-The main section will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are. 
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-------
+The Stories Page
+---
+This page will contain real life stories that users can watch, relate to, and learn life lessons from. 
+This section will have collapsible hovering boxes that opens up readable messages to the video that is included in the section.
 
 ## Release History
 
