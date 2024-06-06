@@ -133,10 +133,10 @@ li {
 
 #hero {
   position: relative;
-  bottom: 55px;
-  height: 450px;
-  width: 100%;
-  background: url("../images/hero-image.jpeg") no-repeat center center/cover
+  bottom: 47px;
+  height: unset;
+  width: unset;
+  background: url("assets/images/hero-image.jpg") no-repeat center center/cover
 }
 
 
@@ -351,120 +351,3 @@ footer i {
 .modal-text {
     color: #2D2D2A;
 }
-/* media queries */
-
-@media (max-width: 1440px) {
-    .row-cols-2 .box {
-        width: 100%;
-        border-radius: 20px;
-        position: relative;
-        top: 10px;
-    }
-    .preventive-awareness-programme,
-    .psychological-impact,
-    .safeguarding,
-    .radicalisation,
-    .Objectives {
-      height: unset;
-    }
-
-    h1,h2,h3 {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: xx-large;
-      font-weight: 600;
-  }
-  p {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: larger;
-  }
-  li {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: larger;
-  }
-  }
-
-  @media (max-width: 768px) {
-    .row-cols-2 .box {
-        width: 0%;
-        border-radius: 20px;
-    }
-    
-    .preventive-awareness-programme {
-      position: relative;
-      left: 0px;
-      bottom: 37px;
-        height: 115px;
-      }
-  
-      .psychological-impact {
-        position: relative;
-        top: 140px;
-        height: 125px;
-      }
-  
-      .safeguarding {
-        position: relative;
-        top: 125px;
-        height: 100px;
-      }
-  
-      .radicalisation {
-        position: relative;
-        top: 110px;
-        height: 100px;
-      }
-    .Objectives {
-      position: relative;
-      top: 100px;
-        height: 140px;
-    }
-    h1,h2,h3 {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: larger;
-      font-weight: 600;
-  }
-  p {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: larger;
-  }
-  li {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: larger;
-  }
-  .row-cols-2 {
-    position: relative;
-    left: 0px;
-    width: 1200px;
-  }
-  }
-
-@media (max-width: 576px) {
-    .row-cols-2 .box {
-        width: 100%;
-        padding-left: 15px;
-        border-radius: 20px;
-    }
-
-    .preventive-awareness-programme,
-    .psychological-impact,
-    .safeguarding,
-    .radicalisation,
-    .Objectives {
-      height: unset;
-    }
-
-    h1,h2,h3 {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: large;
-      font-weight: 600;
-  }
-  p {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: medium;
-  }
-  li {
-      font-family: 'Quatrocentro' Quatrocentro Sans;
-      font-size: medium;
-  }
-}
-
