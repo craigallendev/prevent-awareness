@@ -70,12 +70,24 @@ Reporting issues that affects codes to each other, hop on calls and share screen
 Use diff checker, css jigsaw validator, and W3C validator to fix problems in code. 
 
 
+Deployment
+---
+Fill this with the deployment steps.
 
+Citation
+---
+Media Citation
+---
+Fill this with image citation.
 
+Content Citation
+---
+
+Fill this with font awesome Citation. 
 
 
 
 
 ---
 
-Happy coding!
+
