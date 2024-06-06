@@ -80,17 +80,17 @@ div {
 }
 
 h1,h2,h3 {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento", serif;
   font-weight: 600;
 }
 
 p {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: 16px;
 }
 
 li {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: small;
 }
 
@@ -162,12 +162,21 @@ footer i {
 
 /* Stories Page Style */
 
+.stories-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .container-fluid {
     --bs-gutter-x: 0rem;
 }
 
 #stories {
     margin: 0 10%;
+}
+
+#stories h1 {
+    font-size: 60px;
 }
 
 #stories h2 {
