@@ -58,6 +58,17 @@ As a user of the website, I want to read about some examples and real-life stori
 
 As a user of the website, I want to find useful resources that helps the situation.
 
+Testing Section
+---
+
+This project prioritises thorough testing to ensure functionality, user friendly and accessible webstie. 
+
+Use of dev tools to make the styling responsive on all devices using developer tools. This ensures a responsive layout.
+
+Reporting issues that affects codes to each other, hop on calls and share screens to fix the codes.
+
+Use diff checker, css jigsaw validator, and W3C validator to fix problems in code. 
+
 
 
 
