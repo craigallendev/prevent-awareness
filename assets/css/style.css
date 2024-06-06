@@ -86,19 +86,18 @@ main {
   }
 
 h1,h2,h3 {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento", serif;
   font-weight: 600;
 }
 
 p {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: 16px;
 }
 
 li {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: small;
->>>>>>> origin/main
 }
 
 .row-cols-2 .box {
@@ -137,7 +136,7 @@ li {
   bottom: 47px;
   height: unset;
   width: unset;
-  background: url("../images/hero-image.jpeg") no-repeat center center/cover
+  background: url("assets/images/hero-image.jpg") no-repeat center center/cover
 }
 
 
@@ -148,12 +147,14 @@ footer {
     display: flex;
     justify-content: center;
     height: 50px;
+    padding: 0 10px;
     width: 100%;
     align-items: center;
     margin-top: auto;
     width: calc(100% - 40px);
     border-radius: 25px;
-    margin: 0px 10px;
+    margin: 0px auto;
+    box-sizing: border-box;
 }
 
 footer a {
@@ -167,12 +168,21 @@ footer i {
 
 /* Stories Page Style */
 
-.container-fluid {
+.stories-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#stories .container-fluid {
     --bs-gutter-x: 0rem;
 }
 
 #stories {
     margin: 0 10%;
+}
+
+#stories h1 {
+    font-size: 60px;
 }
 
 #stories h2 {
@@ -231,6 +241,10 @@ footer i {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+#stories .col-6 {
+    width: 230px;
+}
+
 .more-stories-btn .btn-primary:hover {
     background-color: #9CC6A1;
     color: #fafafa;
@@ -258,6 +272,12 @@ footer i {
     .video-border {
         border-radius: 5px;
     }
+
+    .more-stories-btn .btn-primary {
+        padding: 0px;
+        position: relative;
+        bottom: 25px;
+    }
 }
 
 
@@ -265,15 +285,23 @@ footer i {
     .collapsible {
         display: none;
     }
+
+    .more-stories-btn .btn-primary {
+        position: relative;
+        bottom: 50px;
+
 }
 
 /*Support Page Styles */
 
 #support-heading {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 0;
     padding: 0 20px;
+    text-align: center;
+    justify-content: space-around;
 }
+
 .header-text {
     font-size: 20px;
 }
@@ -356,7 +384,7 @@ footer i {
   }
 
   @media (max-width: 768px) {
-    ..row-cols-2 .box {
+    .row-cols-2 .box {
         width: 0%;
         border-radius: 20px;
     }
