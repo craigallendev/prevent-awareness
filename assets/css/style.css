@@ -17,41 +17,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #2b5382;
-    color: #fafafa
+    background-color: #2B5382;
+    color: #FAFAFA
 }
-
 /* header styles */
 header {
-    padding-top: 20px;
-    background-color: #26722f;
-    /* margin-top: 75px; */
+    background-color: #26722F;
 }
-
-header h1,
-h2,
-h3 {
-    justify-content: center;
-    text-align: center;
-    font-family: "roboto+slab", sans-serif;
-    font-weight: 500;
-    margin-bottom: 0;
-    margin-top: 0;
-    color: #fafafa;
-}
-
-header h1 {
-    font-size: 300%;
-}
-
-header h2 {
-    font-size: 200%;
-}
-
-header h3 {
-    font-size: 75%;
-}
-
+/* nav styles */
 .nav-list {
     display: flex;
     padding: 15pxs;
@@ -59,25 +32,58 @@ header h3 {
     background-color: whitesmoke;
     margin: 5px;
 }
-
 .navbar {
     min-width: 200px;
     min-height: 100px;
 }
+.nav-item {
+    font-family: "Quattrocentro", sans-serif;
+    font-size: large;
+  }
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: #FAFAFA;
+}
+.nav-link:hover {
+    transform: scale(1.2) translate(0, -1%);
+    color: orange;
+  }
+/* adding logo text style */
+.logo-text {
+    font-family: "roboto+slab", sans-serif;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FAFAFA;
+   }
+/* Make "Prevent" larger than "Awareness" and reduce gap between them*/
+.logo-text span:first-child {
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  /* Make "Awareness" smaller than "Prevent" and reduce gap between them*/
+  .logo-text span:last-child {
+    font-size: 35px;
+    line-height: 1;
+  }
 
 /* main body styles */
 
 main {
-    background-color: #2b5382;
+    background-color: #2B5382;
     /* enable main element to take up entire white-space */
     flex: 1 0 auto;
-    margin-top: 47px;
 }
-
-
-div {
-  padding: 10px;
-}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container div {
+    box-sizing: border-box;
+  }
 
 h1,h2,h3 {
   font-family: 'Quatrocentro', Quatrocentro Sans;
