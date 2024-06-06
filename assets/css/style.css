@@ -127,13 +127,8 @@ li {
 /* hero image */
 
 #hero {
-  position: relative;
-  bottom: 47px;
-  height: unset;
-  width: unset;
-  background: url("../images/hero-image.jpeg") no-repeat center center/cover
+    background: url(assets/images/hero-image.jpeg)
 }
-
 
 /* footer styles */
 
@@ -350,6 +345,10 @@ footer i {
     ..row-cols-2 .box {
         width: 0%;
         border-radius: 20px;
+    }
+
+    .row-cols-auto {
+        width: ;
     }
     
     .preventive-awareness-programme {

@@ -1,36 +1,39 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome keith richards,
+PREVENT AWARENESS PROGRAMME
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Prevent awareness logo] ()
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+Welcome To The Prevent Awareness Programme!!!,
 
-## Gitpod Reminders
+This is an initiative set up to empower the community and vulnerable people from extremist views, radicalisation, the psychological and social impascts of those views and ensure proper safeguarding online.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+PROJECT OVERVIEW
 
-A blue button should appear to click: _Make Public_,
+Prevent Awareness Programme aims to create a website that serves as a central resource of raising awareness about radicalisation and extremist views that enables individuals to safeguard themselves online. It will provide accurate information and resources to empower individuals and communities to identify the signs of radicalisation and safeguard themselves from its influence. 
 
-Another blue button should appear to click: _Open Browser_.
+This website targets a broad audience including families and communities, educators, youth workers, policymakers, and vulnerable people. 
+By providing these resources, the website aims to provide protection, early intervention, support network, and education and awareness. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+FEATURES
 
-Another blue button should appear to click: _Open Browser_.
+Existing Features
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Navigation Bar
 
-To log into the Heroku toolbelt CLI:
+We have a fully functional nav bar that includes the logo, Home page, Support page, and Stories page. This section will allow the users to experience the website with fully functional nav bars that allows easy access to the information. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+
+The Landing Page Image
+
+A photo that introduces the Prevent Awareness Programme to the users to catch their attention.
+
+
+The Main Section
+
+The main section will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are. 
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
