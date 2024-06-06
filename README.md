@@ -2,7 +2,8 @@
 
 PREVENT AWARENESS PROGRAMME
 ---
-[Prevent awareness logo] ()
+
+![alt text](image.png)
 
 Welcome To The Prevent Awareness Programme!!!,
 ---
@@ -11,6 +12,9 @@ This is an initiative set up to empower the community and vulnerable people from
 
 PROJECT OVERVIEW
 ---
+
+![alt text](image-1.png)
+
 Prevent Awareness Programme aims to create a website that serves as a central resource of raising awareness about radicalisation and extremist views that enables individuals to safeguard themselves online. It will provide accurate information and resources to empower individuals and communities to identify the signs of radicalisation and safeguard themselves from its influence. 
 
 This website targets a broad audience including families and communities, educators, youth workers, policymakers, and vulnerable people. 
@@ -27,21 +31,33 @@ We have a fully functional nav bar that includes the logo, Home page, Support pa
 
 The Landing Page Image
 ---
+![image](https://github.com/craigallendev/prevent-awareness/assets/169779157/1389b315-95f7-4059-b7c4-2371cca8602f)
+
 A photo that introduces the Prevent Awareness Programme to the users to catch their attention.
 
 The Home Page
 ---
-The main section will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are.
+![alt text](image-3.png)
+
+The home page will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are.
 
 The Stories Page
 ---
+![alt text](image-7.png)
+
 This page will contain real life stories that users can watch, relate to, and learn life lessons from. 
+
 This section will have collapsible hovering boxes that opens up readable messages to the video that is included in the section.
 
 The Support Page
 ---
+![alt text](image-2.png)
+
 This page will contain external support that users can use to help themselves or other vulnerable individuals. 
-This page will also contain a place for users to share concerns, and a contact detail to call when needed. 
+
+This page will also contain a place for users to share concerns, and a contact detail to call when needed.
+
+This page will have modal feature for users to get help. 
 
 
 UX/UI
@@ -60,6 +76,8 @@ As a user of the website, I want to find useful resources that helps the situati
 
 Testing Section
 ---
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 This project prioritises thorough testing to ensure functionality, user friendly and accessible webstie. 
 
@@ -72,20 +90,19 @@ Use diff checker, css jigsaw validator, and W3C validator to fix problems in cod
 
 Deployment
 ---
-Fill this with the deployment steps.
+Pushed the most recent page to main on Github
+
+Go to settings in our repository 
+
+Went to pages 
+Click deploy from branch select main branch and click the save button application is now deployed
 
 Citation
 ---
 Media Citation
 ---
-Fill this with image citation.
+The images was gotten from a website called Meduim.
 
 Content Citation
 ---
-
-Fill this with font awesome Citation. 
-
-
-
-
----
+We used font awesome for the icons. 
