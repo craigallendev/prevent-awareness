@@ -80,17 +80,17 @@ div {
 }
 
 h1,h2,h3 {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento", serif;
   font-weight: 600;
 }
 
 p {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: 16px;
 }
 
 li {
-  font-family: 'Quatrocentro', Quatrocentro Sans;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: small;
 }
 
@@ -162,12 +162,21 @@ footer i {
 
 /* Stories Page Style */
 
-.container-fluid {
+.stories-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#stories .container-fluid {
     --bs-gutter-x: 0rem;
 }
 
 #stories {
     margin: 0 10%;
+}
+
+#stories h1 {
+    font-size: 60px;
 }
 
 #stories h2 {
@@ -226,6 +235,10 @@ footer i {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+#stories .col-6 {
+    width: 230px;
+}
+
 .more-stories-btn .btn-primary:hover {
     background-color: #9CC6A1;
     color: #fafafa;
@@ -253,6 +266,12 @@ footer i {
     .video-border {
         border-radius: 5px;
     }
+
+    .more-stories-btn .btn-primary {
+        padding: 0px;
+        position: relative;
+        bottom: 25px;
+    }
 }
 
 
@@ -260,6 +279,11 @@ footer i {
     .collapsible {
         display: none;
     }
+
+    .more-stories-btn .btn-primary {
+        position: relative;
+        bottom: 50px;
+
 }
 
 /*Support Page Styles */
