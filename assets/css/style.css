@@ -27,7 +27,7 @@ header {
 /* nav styles */
 .nav-list {
     display: flex;
-    padding: 15pxs;
+    padding: 15px;
     color: white;
     background-color: whitesmoke;
     margin: 5px;
@@ -205,7 +205,7 @@ footer i {
 }
 
 .video-border {
-    border: solid 0px;
+    border: none;
     border-radius: 10px;
 }
 
@@ -350,4 +350,5 @@ footer i {
 }
 .modal-text {
     color: #2D2D2A;
+}
 }
