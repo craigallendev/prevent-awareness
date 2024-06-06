@@ -265,10 +265,11 @@ footer i {
 /*Support Page Styles */
 
 #support-heading {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 0;
     padding: 0 20px;
-    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .header-text {
@@ -353,7 +354,7 @@ footer i {
   }
 
   @media (max-width: 768px) {
-    ..row-cols-2 .box {
+    .row-cols-2 .box {
         width: 0%;
         border-radius: 20px;
     }
