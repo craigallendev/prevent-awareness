@@ -3,7 +3,7 @@
 PREVENT AWARENESS PROGRAMME
 ---
 
-!<img width="375" alt="prevent logo 2" src="https://github.com/craigallendev/prevent-awareness/assets/169143525/534faf58-87e0-4102-aec0-5c36f78aa1df">
+<img width="375" alt="prevent logo 2" src="https://github.com/craigallendev/prevent-awareness/assets/169143525/534faf58-87e0-4102-aec0-5c36f78aa1df">
 
 
 Welcome To The Prevent Awareness Programme!!!,
