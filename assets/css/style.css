@@ -81,9 +81,7 @@ main {
     display: flex;
     flex-wrap: wrap;
   }
-  .container div {
-    box-sizing: border-box;
-  }
+  
 
 h1,h2,h3 {
   font-family: "Quattrocento", serif;
@@ -316,7 +314,8 @@ footer i {
     border-radius: 10px;
     padding: 15px;
     background-color: #fafafa;
-}
+    min-width: 100px;
+ }
 
 .support-image {
     width: 100%;
@@ -353,5 +352,47 @@ footer i {
 .modal-text {
     color: #2D2D2A;
 }
+}
+
+/* Media query for extra small screens (480px and below) */
+@media screen and (min-width: 100px) {
+    .support-container {
+        border: 5px solid #fafafa;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #fafafa;
+    }
+
+    .support-image {
+        width: 100%;
+        height: 120px;
+        padding: 25px;
+    }
+    
+    .support-link {
+        color: #2D2D2A;
+        }
+    
+    .section-text{
+        color: #2D2D2A;
+    }
+
+    .support-button {
+        background-color: #26722f;
+        color: #fafafa;
+        border: 2px solid #9CC6A1;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .support-button:hover {
+        background-color: #9CC6A1;
+        color: #fafafa;
+        border: 2px solid #26722f;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4)
+    }
 }
 
