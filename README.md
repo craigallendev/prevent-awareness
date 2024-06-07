@@ -3,7 +3,8 @@
 PREVENT AWARENESS PROGRAMME
 ---
 
-![alt text](image.png)
+!<img width="375" alt="prevent logo 2" src="https://github.com/craigallendev/prevent-awareness/assets/169143525/534faf58-87e0-4102-aec0-5c36f78aa1df">
+
 
 Welcome To The Prevent Awareness Programme!!!,
 ---
@@ -13,7 +14,6 @@ This is an initiative set up to empower the community and vulnerable people from
 PROJECT OVERVIEW
 ---
 
-![alt text](image-1.png)
 
 Prevent Awareness Programme aims to create a website that serves as a central resource of raising awareness about radicalisation and extremist views that enables individuals to safeguard themselves online. It will provide accurate information and resources to empower individuals and communities to identify the signs of radicalisation and safeguard themselves from its influence. 
 
@@ -25,6 +25,7 @@ FEATURES
 ---
 Navigation Bar
 ---
+![Screenshot 2024-06-06 at 13 12 44](https://github.com/craigallendev/prevent-awareness/assets/169143525/df49e5c9-60e6-41af-9bb7-691e56034673)
 
 We have a fully functional nav bar that includes the logo, Home page, Support page, and Stories page. This section will allow the users to experience the website with fully functional nav bars that allows easy access to the information. 
 
@@ -37,13 +38,15 @@ A photo that introduces the Prevent Awareness Programme to the users to catch th
 
 The Home Page
 ---
-![alt text](image-3.png)
+![Screenshot 2024-06-06 at 12 50 34](https://github.com/craigallendev/prevent-awareness/assets/169143525/44642518-fe0b-4436-85c8-dc3671d27d80)
+
 
 The home page will introduce what the programme is about, the definition of radicalisation, what the objectives of the programme is, and what the psychological impacts on individuals are.
 
 The Stories Page
 ---
-![alt text](image-7.png)
+![Screenshot 2024-06-06 at 12 49 11](https://github.com/craigallendev/prevent-awareness/assets/169143525/692f2a87-a638-4ea2-a600-1dd2f5386c2a)
+
 
 This page will contain real life stories that users can watch, relate to, and learn life lessons from. 
 
@@ -51,7 +54,8 @@ This section will have collapsible hovering boxes that opens up readable message
 
 The Support Page
 ---
-![alt text](image-2.png)
+![Screenshot 2024-06-06 at 12 52 42 (1)](https://github.com/craigallendev/prevent-awareness/assets/169143525/9017494d-3dfb-4a3e-a00f-b7c677181dd5)
+
 
 This page will contain external support that users can use to help themselves or other vulnerable individuals. 
 
@@ -76,8 +80,8 @@ As a user of the website, I want to find useful resources that helps the situati
 
 Testing Section
 ---
-![alt text](image-3.png)
-![alt text](image-4.png)
+![Screenshot 2024-06-06 at 13 14 38](https://github.com/craigallendev/prevent-awareness/assets/169143525/e6b4e54a-a5b3-4ade-a26e-21aa554c2b20)
+![Screenshot 2024-06-06 at 13 18 38](https://github.com/craigallendev/prevent-awareness/assets/169143525/01bccc87-fe27-4ec8-b1bf-baa9cb54c8d0)
 
 This project prioritises thorough testing to ensure functionality, user friendly and accessible webstie. 
 
