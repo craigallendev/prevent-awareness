@@ -82,6 +82,9 @@ main {
     flex-wrap: wrap;
   }
   
+  .container div {
+    box-sizing: border-box;
+  }
 
 h1,h2,h3 {
   font-family: "Quattrocento", serif;
