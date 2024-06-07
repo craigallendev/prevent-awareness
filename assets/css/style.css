@@ -20,6 +20,11 @@ body {
     background-color: #2B5382;
     color: #FAFAFA
 }
+
+body, html {
+    overflow-x:hidden;
+}
+
 /* header styles */
 header {
     background-color: #26722F;
